@@ -222,6 +222,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0316-remove-duplicate-letters](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0316-remove-duplicate-letters) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1081-smallest-subsequence-of-distinct-characters) |
 | [1096-brace-expansion-ii](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1096-brace-expansion-ii) |
+| [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1190-reverse-substrings-between-each-pair-of-parentheses) |
 ## Monotonic Stack
 |  |
 | ------- |
@@ -458,6 +459,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1081-smallest-subsequence-of-distinct-characters) |
 | [1096-brace-expansion-ii](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1096-brace-expansion-ii) |
 | [1189-maximum-number-of-balloons](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1189-maximum-number-of-balloons) |
+| [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1190-reverse-substrings-between-each-pair-of-parentheses) |
 | [1520-maximum-number-of-non-overlapping-substrings](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1520-maximum-number-of-non-overlapping-substrings) |
 | [1750-minimum-length-of-string-after-deleting-similar-ends](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1750-minimum-length-of-string-after-deleting-similar-ends) |
 | [1790-check-if-one-string-swap-can-make-strings-equal](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1790-check-if-one-string-swap-can-make-strings-equal) |
@@ -586,6 +588,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0020-valid-parentheses) |
+| [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1190-reverse-substrings-between-each-pair-of-parentheses) |
 ## String Matching
 |  |
 | ------- |
