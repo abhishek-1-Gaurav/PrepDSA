@@ -3,33 +3,39 @@ Approach : Stack + StringBuilder Reversal
 TC : (N ^ 2)
 SC : (N)
 */
+
 class Solution {
     public String reverseParentheses(String s) {
-        Stack<Integer> st = new Stack<>();
-        StringBuilder res = new StringBuilder();
-        for(int i=0;i<s.length();i++) {
-            char ch = s.charAt(i);
-            if(ch == '(') {
-                st.push(res.length());
-            }
-            else if(ch == ')') {
-                int start = st.pop();
-                int end = res.length()-1;
-                reverse(res,start,end);
-            }
-            else {
-                res.append(ch);
+        int n = s.length();
+        int[] pair = new int[n];
+        Stack<Integer> stack = new Stack<>();
+        
+        // Pass 1: Build the teleportation map (wormholes)
+        for (int i = 0; i < n; i++) {
+            char c = s.charAt(i);
+            if (c == '(') {
+                stack.push(i);
+            } else if (c == ')') {
+                int j = stack.pop();
+                pair[i] = j;
+                pair[j] = i;
             }
         }
-        return res.toString();
-    }
-    public void reverse(StringBuilder sb,int start,int end) {
-        while(start < end) {
-            char temp = sb.charAt(start);
-            sb.setCharAt(start,sb.charAt(end));
-            sb.setCharAt(end,temp);
-            start++;
-            end--;
+        
+        // Pass 2: Traverse the portals and construct the string
+        StringBuilder sb = new StringBuilder();
+        int direction = 1; // 1 means moving forward, -1 means moving backward
+        
+        for (int i = 0; i < n; i += direction) {
+            char c = s.charAt(i);
+            if (c == '(' || c == ')') {
+                i = pair[i];        // Teleport to the matching parenthesis
+                direction = -direction; // Invert movement direction
+            } else {
+                sb.append(c);       // Append regular characters
+            }
         }
+        
+        return sb.toString();
     }
 }
