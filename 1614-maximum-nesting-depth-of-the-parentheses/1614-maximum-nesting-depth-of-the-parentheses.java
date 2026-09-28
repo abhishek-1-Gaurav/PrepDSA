@@ -1,14 +1,16 @@
 class Solution {
-  public int maxDepth(String s) {
-    int ans = 0;
-    int opened = 0;
-
-    for (final char c : s.toCharArray())
-      if (c == '(')
-        ans = Math.max(ans, ++opened);
-      else if (c == ')')
-        --opened;
-
-    return ans;
-  }
+    public int maxDepth(String s) {
+        int maxdepth = 0;
+        int count = 0;
+        for (int i = 0; i < s.length(); i++) {
+            if (s.charAt(i) == '(') {
+                count++;
+            }
+            else if (s.charAt(i) == ')') {
+                count--;
+            }
+            maxdepth = Math.max(maxdepth, count);
+        }
+        return maxdepth;
+    }
 }
