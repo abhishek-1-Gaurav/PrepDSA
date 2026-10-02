@@ -1,23 +1,24 @@
-class Solution {
-    public static void func(List<String> list ,char[] ch, int index , int open , int close){
-        if(close==0  && open==0){
-            list.add(new String(ch));
-            return ;
-        }
-
-        if(open>0){
-            ch[index]='(';
-            func(list, ch , index+1, open - 1, close);
-        }
-        if(close> 0 && close>open){
-            ch[index]=')';
-            func(list, ch , index+1, open, close-1);
-        }
+class Solution { 
+    public List<String> generateParenthesis(int n) { 
+        List<String> ans = new ArrayList<>();
+        StringBuilder cur = new StringBuilder();
+        dfs(n, n, cur, ans);
+        return ans;
     }
-    public List<String> generateParenthesis(int n) {
-        List<String> list = new ArrayList<>();
-        char[] ch = new char[2*n];
-        func(list, ch , 0, n , n );
-        return list;
+    private void dfs(int open, int close, StringBuilder cur, List<String> ans) {
+        if (open == 0 && close == 0) {
+            ans.add(cur.toString());
+            return;
+        }
+        if (open > 0) {
+            cur.append('(');
+            dfs(open - 1, close, cur, ans);
+            cur.deleteCharAt(cur.length() - 1);
+        }
+        if (close > open) {
+            cur.append(')');
+            dfs(open, close - 1, cur, ans);
+            cur.deleteCharAt(cur.length() - 1);
+        }
     }
 }
