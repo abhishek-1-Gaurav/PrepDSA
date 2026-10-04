@@ -1,34 +1,28 @@
 class Solution {
     public boolean checkValidString(String s) {
-        int minOpen = 0;
-        int maxOpen = 0;
+        int low = 0;
+        int high = 0;
 
         for (int i = 0; i < s.length(); i++) {
-            char c = s.charAt(i);
-
-            if (c == '(') {
-                minOpen++;
-                maxOpen++;
-            } else if (c == ')') {
-                minOpen--;
-                maxOpen--;
-            } else { // c == '*'
-                minOpen--; // If treated as ')'
-                maxOpen++; // If treated as '('
+            if (s.charAt(i) == '(') {
+                low++;
+                high++;
+            } else if (s.charAt(i) == ')') {
+                if (low > 0) {
+                    low--;
+                }
+                high--;
+            } else {
+                if (low > 0) {
+                    low--;
+                }
+                high++;
             }
 
-            // More ')' than possible '(' and '*' combined
-            if (maxOpen < 0) {
+            if (high < 0) {
                 return false;
             }
-
-            // minOpen cannot be negative; we can choose to treat '*' as "" instead of ')'
-            if (minOpen < 0) {
-                minOpen = 0;
-            }
         }
-
-        // Valid if we can reach exactly 0 open left parentheses
-        return minOpen == 0;
+        return low == 0;
     }
 }
