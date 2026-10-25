@@ -44,6 +44,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1004-max-consecutive-ones-iii](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1004-max-consecutive-ones-iii) |
 | [1140-stone-game-ii](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1140-stone-game-ii) |
 | [1186-maximum-subarray-sum-with-one-deletion](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1186-maximum-subarray-sum-with-one-deletion) |
+| [1254-number-of-closed-islands](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1254-number-of-closed-islands) |
 | [1260-shift-2d-grid](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1260-shift-2d-grid) |
 | [1314-matrix-block-sum](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1314-matrix-block-sum) |
 | [1331-rank-transform-of-an-array](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1331-rank-transform-of-an-array) |
@@ -559,6 +560,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0835-image-overlap](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0835-image-overlap) |
+| [1254-number-of-closed-islands](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1254-number-of-closed-islands) |
 | [1260-shift-2d-grid](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1260-shift-2d-grid) |
 | [1314-matrix-block-sum](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1314-matrix-block-sum) |
 | [2267-check-if-there-is-a-valid-parentheses-string-path](https://github.com/gauravabhishek4U/PrepDSA/tree/master/2267-check-if-there-is-a-valid-parentheses-string-path) |
@@ -616,12 +618,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0472-concatenated-words](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0472-concatenated-words) |
+| [1254-number-of-closed-islands](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1254-number-of-closed-islands) |
 | [2265-count-nodes-equal-to-average-of-subtree](https://github.com/gauravabhishek4U/PrepDSA/tree/master/2265-count-nodes-equal-to-average-of-subtree) |
 | [3310-remove-methods-from-project](https://github.com/gauravabhishek4U/PrepDSA/tree/master/3310-remove-methods-from-project) |
 ## Breadth-First Search
 |  |
 | ------- |
 | [1096-brace-expansion-ii](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1096-brace-expansion-ii) |
+| [1254-number-of-closed-islands](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1254-number-of-closed-islands) |
 | [3310-remove-methods-from-project](https://github.com/gauravabhishek4U/PrepDSA/tree/master/3310-remove-methods-from-project) |
 | [3568-minimum-moves-to-clean-the-classroom](https://github.com/gauravabhishek4U/PrepDSA/tree/master/3568-minimum-moves-to-clean-the-classroom) |
 ## Graph Theory
@@ -706,6 +710,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Union-Find
 |  |
 | ------- |
+| [1254-number-of-closed-islands](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1254-number-of-closed-islands) |
 | [1569-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1569-number-of-ways-to-reorder-array-to-get-same-bst) |
 | [2948-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/gauravabhishek4U/PrepDSA/tree/master/2948-make-lexicographically-smallest-array-by-swapping-elements) |
 ## Linked List
