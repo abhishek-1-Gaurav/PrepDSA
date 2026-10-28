@@ -1,25 +1,37 @@
 class Solution {
     public int minCost(int[][] grid) {
-        int m = grid.length, n = grid[0].length;
-        boolean[][][] dp = new boolean[m][n][1024];
-        dp[0][0][grid[0][0]] = true;
-        for (int i = 0; i < m; i++) {
-            for (int j = 0; j < n; j++) {
-                if (i > 0) {
-                    for (int x = 0; x < 1024; x++) {
-                        if (dp[i - 1][j][x]) dp[i][j][x ^ grid[i][j]] = true;
+        int n = grid.length;
+        int m = grid[0].length;
+
+        boolean[][] dp = new boolean[m][1024];
+        dp[0][grid[0][0]] = true;
+
+        for (int i = 0; i < n; i++) {
+            boolean[][] next = new boolean[m][1024];
+
+            for (int j = 0; j < m; j++) {
+                for (int k = 0; k < 1024; k++) {
+                    if (!dp[j][k]) continue;
+
+                    if (j + 1 < m) {
+                        dp[j + 1][k ^ grid[i][j + 1]] = true;
                     }
-                }
-                if (j > 0) {
-                    for (int x = 0; x < 1024; x++) {
-                        if (dp[i][j - 1][x]) dp[i][j][x ^ grid[i][j]] = true;
+
+                    if (i + 1 < n) {
+                        next[j][k ^ grid[i + 1][j]] = true;
                     }
                 }
             }
+
+            if (i + 1 < n) {
+                dp = next;
+            }
         }
-        for (int x = 0; x < 1024; x++) {
-            if (dp[m - 1][n - 1][x]) return x;
+
+        for (int k = 0; k < 1024; k++) {
+            if (dp[m - 1][k]) return k;
         }
-        return 0;
+
+        return -1;
     }
 }
