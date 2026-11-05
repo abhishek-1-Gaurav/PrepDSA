@@ -50,6 +50,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1260-shift-2d-grid](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1260-shift-2d-grid) |
 | [1314-matrix-block-sum](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1314-matrix-block-sum) |
 | [1331-rank-transform-of-an-array](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1331-rank-transform-of-an-array) |
+| [1385-find-the-distance-value-between-two-arrays](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1385-find-the-distance-value-between-two-arrays) |
 | [1386-cinema-seat-allocation](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1386-cinema-seat-allocation) |
 | [1406-stone-game-iii](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1406-stone-game-iii) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
@@ -140,6 +141,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0680-valid-palindrome-ii](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0680-valid-palindrome-ii) |
 | [0876-middle-of-the-linked-list](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0876-middle-of-the-linked-list) |
 | [0977-squares-of-a-sorted-array](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0977-squares-of-a-sorted-array) |
+| [1385-find-the-distance-value-between-two-arrays](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1385-find-the-distance-value-between-two-arrays) |
 | [1750-minimum-length-of-string-after-deleting-similar-ends](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1750-minimum-length-of-string-after-deleting-similar-ends) |
 | [1855-maximum-distance-between-a-pair-of-values](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1855-maximum-distance-between-a-pair-of-values) |
 | [2472-maximum-number-of-non-overlapping-palindrome-substrings](https://github.com/gauravabhishek4U/PrepDSA/tree/master/2472-maximum-number-of-non-overlapping-palindrome-substrings) |
@@ -156,6 +158,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0704-binary-search](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0704-binary-search) |
 | [0713-subarray-product-less-than-k](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0713-subarray-product-less-than-k) |
 | [1004-max-consecutive-ones-iii](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1004-max-consecutive-ones-iii) |
+| [1385-find-the-distance-value-between-two-arrays](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1385-find-the-distance-value-between-two-arrays) |
 | [1477-find-two-non-overlapping-sub-arrays-each-with-target-sum](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1477-find-two-non-overlapping-sub-arrays-each-with-target-sum) |
 | [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
 | [1855-maximum-distance-between-a-pair-of-values](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1855-maximum-distance-between-a-pair-of-values) |
@@ -181,6 +184,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0977-squares-of-a-sorted-array](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0977-squares-of-a-sorted-array) |
 | [1096-brace-expansion-ii](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1096-brace-expansion-ii) |
 | [1331-rank-transform-of-an-array](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1331-rank-transform-of-an-array) |
+| [1385-find-the-distance-value-between-two-arrays](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1385-find-the-distance-value-between-two-arrays) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
 | [1520-maximum-number-of-non-overlapping-substrings](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1520-maximum-number-of-non-overlapping-substrings) |
 | [2089-find-target-indices-after-sorting-array](https://github.com/gauravabhishek4U/PrepDSA/tree/master/2089-find-target-indices-after-sorting-array) |
