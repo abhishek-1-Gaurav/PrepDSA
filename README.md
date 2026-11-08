@@ -48,6 +48,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1186-maximum-subarray-sum-with-one-deletion](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1186-maximum-subarray-sum-with-one-deletion) |
 | [1254-number-of-closed-islands](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1254-number-of-closed-islands) |
 | [1260-shift-2d-grid](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1260-shift-2d-grid) |
+| [1267-count-servers-that-communicate](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1267-count-servers-that-communicate) |
 | [1314-matrix-block-sum](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1314-matrix-block-sum) |
 | [1331-rank-transform-of-an-array](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1331-rank-transform-of-an-array) |
 | [1385-find-the-distance-value-between-two-arrays](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1385-find-the-distance-value-between-two-arrays) |
@@ -450,6 +451,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0169-majority-element) |
 | [0992-subarrays-with-k-different-integers](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0992-subarrays-with-k-different-integers) |
 | [1189-maximum-number-of-balloons](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1189-maximum-number-of-balloons) |
+| [1267-count-servers-that-communicate](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1267-count-servers-that-communicate) |
 | [1790-check-if-one-string-swap-can-make-strings-equal](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1790-check-if-one-string-swap-can-make-strings-equal) |
 | [2029-stone-game-ix](https://github.com/gauravabhishek4U/PrepDSA/tree/master/2029-stone-game-ix) |
 | [2287-rearrange-characters-to-make-target-string](https://github.com/gauravabhishek4U/PrepDSA/tree/master/2287-rearrange-characters-to-make-target-string) |
@@ -595,6 +597,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0835-image-overlap](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0835-image-overlap) |
 | [1254-number-of-closed-islands](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1254-number-of-closed-islands) |
 | [1260-shift-2d-grid](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1260-shift-2d-grid) |
+| [1267-count-servers-that-communicate](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1267-count-servers-that-communicate) |
 | [1314-matrix-block-sum](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1314-matrix-block-sum) |
 | [2267-check-if-there-is-a-valid-parentheses-string-path](https://github.com/gauravabhishek4U/PrepDSA/tree/master/2267-check-if-there-is-a-valid-parentheses-string-path) |
 | [3568-minimum-moves-to-clean-the-classroom](https://github.com/gauravabhishek4U/PrepDSA/tree/master/3568-minimum-moves-to-clean-the-classroom) |
@@ -657,6 +660,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0472-concatenated-words](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0472-concatenated-words) |
 | [1254-number-of-closed-islands](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1254-number-of-closed-islands) |
+| [1267-count-servers-that-communicate](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1267-count-servers-that-communicate) |
 | [2265-count-nodes-equal-to-average-of-subtree](https://github.com/gauravabhishek4U/PrepDSA/tree/master/2265-count-nodes-equal-to-average-of-subtree) |
 | [3310-remove-methods-from-project](https://github.com/gauravabhishek4U/PrepDSA/tree/master/3310-remove-methods-from-project) |
 | [3619-count-islands-with-total-value-divisible-by-k](https://github.com/gauravabhishek4U/PrepDSA/tree/master/3619-count-islands-with-total-value-divisible-by-k) |
@@ -666,6 +670,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [1096-brace-expansion-ii](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1096-brace-expansion-ii) |
 | [1254-number-of-closed-islands](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1254-number-of-closed-islands) |
+| [1267-count-servers-that-communicate](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1267-count-servers-that-communicate) |
 | [3310-remove-methods-from-project](https://github.com/gauravabhishek4U/PrepDSA/tree/master/3310-remove-methods-from-project) |
 | [3568-minimum-moves-to-clean-the-classroom](https://github.com/gauravabhishek4U/PrepDSA/tree/master/3568-minimum-moves-to-clean-the-classroom) |
 | [3619-count-islands-with-total-value-divisible-by-k](https://github.com/gauravabhishek4U/PrepDSA/tree/master/3619-count-islands-with-total-value-divisible-by-k) |
@@ -754,6 +759,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1254-number-of-closed-islands](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1254-number-of-closed-islands) |
+| [1267-count-servers-that-communicate](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1267-count-servers-that-communicate) |
 | [1569-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1569-number-of-ways-to-reorder-array-to-get-same-bst) |
 | [2948-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/gauravabhishek4U/PrepDSA/tree/master/2948-make-lexicographically-smallest-array-by-swapping-elements) |
 | [3619-count-islands-with-total-value-divisible-by-k](https://github.com/gauravabhishek4U/PrepDSA/tree/master/3619-count-islands-with-total-value-divisible-by-k) |
