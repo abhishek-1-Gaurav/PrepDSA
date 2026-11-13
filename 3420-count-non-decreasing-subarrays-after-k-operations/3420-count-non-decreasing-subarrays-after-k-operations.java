@@ -1,24 +1,44 @@
 class Solution {
     public long countNonDecreasingSubarrays(int[] nums, int k) {
-        Deque<Integer> starts = new ArrayDeque<>();  // where each plateau starts, left to right
-        long ans = 0, water = 0;
-        int n = nums.length, r = n - 1;
-        for (int l = n - 1; l >= 0; l--) {
-            int x = nums[l];
-            while (!starts.isEmpty() && nums[starts.peekFirst()] <= x) {  // x floods the plateau that starts at starts.peekFirst()
-                int s = starts.pollFirst();
-                int end = starts.isEmpty() ? r + 1 : starts.peekFirst();
-                water += (long) (x - nums[s]) * (end - s);
+        Deque<int []> dq = new LinkedList<>();
+
+        int i=nums.length - 1;
+        int j=nums.length - 1;
+        long operations = 0;
+        long ans = 0;
+
+        while(i>-1){
+            int pops = 0;
+            while(dq.size() > 0 && dq.peekFirst()[0] <= nums[i]){
+                int [] remove = dq.poll();
+                pops+=remove[1];
+                operations += (long)remove[1] * (long)(nums[i] - remove[0]);    
             }
-            starts.offerFirst(l);
-            while (water > k) {  // the right end leaves with its water
-                water -= nums[starts.peekLast()] - nums[r];
-                if (starts.peekLast() == r)
-                    starts.pollLast();
-                r--;
+            dq.offerFirst(new int[] {nums[i], pops+1});
+
+            if(operations<=(long)k){
+                ans+=(long)(j-i+1);
+            }else{
+                while(i<j && operations > (long) k){
+                    int [] remove = dq.pollLast();
+                    operations -= (long)(remove[0] - nums[j]);
+                    remove[1]--;
+                    if(remove[1] != 0){
+                        dq.offerLast(remove);
+                    }
+                    j--;
+                }
+
+                if(operations<= (long) k){
+                    ans += (long)(j-i+1);
+                }
             }
-            ans += r - l + 1;
+
+            // System.out.println(i + " " + j + " " + operations + " " + ans);
+            i--;
         }
+
         return ans;
+
     }
 }
