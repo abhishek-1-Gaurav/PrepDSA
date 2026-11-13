@@ -1,44 +1,73 @@
 class Solution {
     public long countNonDecreasingSubarrays(int[] nums, int k) {
-        Deque<int []> dq = new LinkedList<>();
+        // return sol1(nums, k);
 
-        int i=nums.length - 1;
-        int j=nums.length - 1;
-        long operations = 0;
-        long ans = 0;
+        return sol2(nums, k);
+    }
 
-        while(i>-1){
-            int pops = 0;
-            while(dq.size() > 0 && dq.peekFirst()[0] <= nums[i]){
-                int [] remove = dq.poll();
-                pops+=remove[1];
-                operations += (long)remove[1] * (long)(nums[i] - remove[0]);    
+    public long sol2(int[] nums, int k) {
+        int n = nums.length;
+
+        int i = 0;
+        int j = 0;
+        long total = 0;
+        int prev = nums[0];
+        int op = k;
+        while(j < n) {
+            if(nums[j] >= prev) {
+                prev = nums[j];
+                j += 1;
             }
-            dq.offerFirst(new int[] {nums[i], pops+1});
-
-            if(operations<=(long)k){
-                ans+=(long)(j-i+1);
-            }else{
-                while(i<j && operations > (long) k){
-                    int [] remove = dq.pollLast();
-                    operations -= (long)(remove[0] - nums[j]);
-                    remove[1]--;
-                    if(remove[1] != 0){
-                        dq.offerLast(remove);
+            else if(prev - nums[j] <= op){
+                op = op - (prev - nums[j]);
+                j += 1;
+            }
+            else {
+                total += (j - i);
+                op = k;
+                i = i + 1;
+                int ind = i;
+                prev = nums[ind];
+                while(ind < j) {
+                    if(nums[ind] >= prev) {
+                        prev = nums[ind];
                     }
-                    j--;
-                }
-
-                if(operations<= (long) k){
-                    ans += (long)(j-i+1);
+                    op = op - (prev - nums[ind]);
+                    ind += 1;
                 }
             }
-
-            // System.out.println(i + " " + j + " " + operations + " " + ans);
-            i--;
         }
 
-        return ans;
+        // finally
+        total += (long) (j-i)*(j-i+1) / 2;
+        return total;
+    }
 
+    public long sol1(int[] nums, int k)  {
+        int n = nums.length;
+
+        long total = 0;
+        for(int i=0; i<n ;i++) {
+            long currLen = 1;
+            int prev = nums[i];
+            int allowedOperations = k;
+            for(int j=i; j<n; j++) {
+                if(nums[j] >= prev) {
+                    prev = nums[j];
+                    currLen = (j-i+1);
+                }
+                else if(prev - nums[j] > allowedOperations) {
+                    break;
+                }
+                else {
+                    allowedOperations = allowedOperations - (prev - nums[j]);
+                    currLen = (j-i+1);
+                }
+            }
+
+            total += currLen;
+        }
+
+        return total;
     }
 }
